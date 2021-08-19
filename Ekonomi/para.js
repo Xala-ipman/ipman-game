@@ -13,7 +13,7 @@ message.channel.send(new Discord.MessageEmbed(()
                   .setFooter('Zenoy Balance Info!')
                   .setThumbnail('https://media.discordapp.net/attachments/852987040659931248/871313810441510922/image0.gif')
                   .setAuthor(user.tag, user.avatarURL({dynamic: true}))     
-                  .addField(`Zenoy Cash <a:emoji_25:870145821469966406>`,`cash __${cüzdan ? cüzdan +'':`0`}__\nBank __${banka ? banka +'':`0`}__\nTotal __${toplam ? toplam +'':`0`}__`,true))
+                  .addField(`Zenoy Cash <a:emoji_25:870145821469966406>`,`__${toplam ? toplam +'':`0`}__`,true))
                     
   }
 
