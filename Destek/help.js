@@ -14,7 +14,8 @@ exports.run = (client, message, args, dev) => {
 💰┇send (se) - rob (ro)
 
 🎮 - __Game__
-🎮┇coinflip - slots
+🎮┇coinflip (cf) - slots (s)
+🎮┇rober (rr) - 
 
 ⚙️ - __Moderation Commands__
 ⚙️┇lock - unlock - bot 
