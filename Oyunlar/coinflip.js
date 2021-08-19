@@ -47,7 +47,7 @@ if(miktar > para) return message.channel.send(new Discord.MessageEmbed()
         var text2 = `**<@${message.author.id}> CoinFlip<a:emoji_3:870056915542081557> Choice Own Or Lost**`;
           message.channel.send(text2).then(msg => {
             setTimeout(() => {
-              msg.edit(`<@${message.author.id}>spent cowoncy __${-kazandın}__ 50000- 💵 and chose __loose__
+              msg.edit(`<@${message.author.id}>spent cowoncy 💵 and chose __loose__
 The coin spins...  tail and you lost it all... __🔴__ `);
             }, 350);
           });
@@ -59,7 +59,7 @@ The coin spins...  tail and you lost it all... __🔴__ `);
         var text2 = `<@${message.author.id}> CoinFlip<a:emoji_3:870056915542081557> Choice** Own Or Lost**`;
           message.channel.send(text2).then(msg => {
             setTimeout(() => {
-              msg.edit(`<@${message.author.id}> spent cowoncy __${kaybettin}__ 50000+ 💵 and chose __win__
+              msg.edit(`<@${message.author.id}> spent cowoncy 💵 and chose __win__
 The coin spins... __🟢__ coinflip`);
             }, 350);
           });
