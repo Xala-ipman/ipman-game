@@ -44,11 +44,11 @@ if(miktar > para) return message.channel.send(new Discord.MessageEmbed()
      if (awnser === "LOOSELOOSE") {
  var kaybettin = miktar*6        
         //////        
-        var text2 = `**<@${message.author.id}> CoinFlip <a:Skull:869314817289244704> Choice Own Or Lost**`;
+        var text2 = `**<@${message.author.id}> CoinFlip<a:emoji_3:870056915542081557> Choice Own Or Lost**`;
           message.channel.send(text2).then(msg => {
             setTimeout(() => {
               msg.edit(`<@${message.author.id}>spent cowoncy __${-kaybettin}__ 💵 and chose **heads**
-The coin spins...  tail and you lost it all... 🚩`);
+The coin spins...  tail and you lost it all... 🔴`);
             }, 4000);
           });
       await db.set(`bahisoynama_${message.author.id}`, Date.now());   
@@ -56,11 +56,11 @@ The coin spins...  tail and you lost it all... 🚩`);
       } else { 
 //== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==\\
           var kazandın = miktar*6
-        var text2 = `<@${message.author.id}> CoinFlip <a:Skull:869314817289244704> Choice** Own Or Lost**`;
+        var text2 = `<@${message.author.id}> CoinFlip<a:emoji_3:870056915542081557> Choice** Own Or Lost**`;
           message.channel.send(text2).then(msg => {
             setTimeout(() => {
               msg.edit(`<@${message.author.id}> spent cowoncy __ ${kazandın} __ 💵 and chose** heads**
-The coin spins... 🤑 coinflip`);
+The coin spins... 🟢 coinflip`);
             }, 4000);
           });
     await db.set(`bahisoynama_${message.author.id}`, Date.now());   
