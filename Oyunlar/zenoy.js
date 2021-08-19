@@ -22,11 +22,11 @@ exports.run = async (client, message, args) => {
   if(!miktar) return message.channel.send(new Discord.MessageEmbed()
                                         .setColor("#ffff00")
                                         .setAuthor(message.author.tag, message.author.avatarURL({dynamic: true}))
-                                        .setDescription(`You Can't More Than<a:emoji_25:870145821469966406> 50,000`))
+                                        .setDescription(`You Can't More Than<a:emoji_25:870145821469966406> __50,000__`))
  if(miktar > 50000) return message.channel.send(new Discord.MessageEmbed()
                                         .setColor("#ffff00")
                                         .setAuthor(message.author.tag, message.author.avatarURL({dynamic: true}))
-                                        .setDescription(`You can bet up to 50000 <a:emoji_25:870145821469966406>!`))   
+                                        .setDescription(`You can bet up to __50000__ <a:emoji_25:870145821469966406>!`))   
 if(miktar > para) return message.channel.send(new Discord.MessageEmbed()
 //== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==\\
                                               .setColor("#ffff00")
@@ -45,7 +45,7 @@ if(miktar > para) return message.channel.send(new Discord.MessageEmbed()
         var text2 = `**<@${message.author.id}> Zenoy <a:emoji_3:870056915542081557> Choice Win Or Lost**`;
           message.channel.send(text2).then(msg => {
             setTimeout(() => {
-              msg.edit(`**<@${message.author.id}> Zenoy Lost 50000-<a:emoji_12:870075106406309968> __50000-__ (loose)**`);
+              msg.edit(`**<@${message.author.id}> Zenoy Lost ❎ __50000-__ (loose)**`);
             }, 3000);
           });
       await db.set(`bahisoynama_${message.author.id}`, Date.now());   
@@ -56,7 +56,7 @@ if(miktar > para) return message.channel.send(new Discord.MessageEmbed()
         var text2 = `**<@${message.author.id}> Zenoy <a:emoji_3:870056915542081557> Choice Win Or Lost**`;
           message.channel.send(text2).then(msg => {
             setTimeout(() => {
-              msg.edit(`**<@${message.author.id}> Zenoy Win <a:emoji_11:870075090652512376> __50000+__ (win)**`);
+              msg.edit(`**<@${message.author.id}> Zenoy Win ✅ __50000+__ (win)**`);
             }, 3000);
           });   
     await db.set(`bahisoynama_${message.author.id}`, Date.now());   
