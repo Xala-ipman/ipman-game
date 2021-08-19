@@ -29,8 +29,8 @@ require("./util/eventLoader.js")(client);
 
 //===============================================================================\\
 client.on("ready", async () => {
-  client.user.setActivity(`Zhelp | Zinvite` }
-    type: "PLAYING"
+  client.user.setActivity(`Zhelp | Zinvite` {
+    type: "Games"
   });
 });
 //===============================================================================\\
