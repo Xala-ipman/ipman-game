@@ -7,6 +7,7 @@ exports.run = async (client, message, args) => {
    var cüzdan = db.fetch(`para_${user.id}`)
   var banka = db.fetch(`bankapara_${user.id}`)
   //== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==\\
+   .setColor('2a9b12')
   var toplam= cüzdan+banka
 message.channel.send(`cash __${cüzdan ? cüzdan +'':`0`}__\nBank __${banka ? banka +'':`0`}__\nTotal __${toplam ? toplam +'':`0`}__`)
    }
@@ -15,7 +16,7 @@ message.channel.send(`cash __${cüzdan ? cüzdan +'':`0`}__\nBank __${banka ? ba
 //== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==\\
 exports.conf = {
   enabled: true,
-    aliases: [],
+    aliases: ['c','C'],
 };
 //== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==\\
 exports.help = {
