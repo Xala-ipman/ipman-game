@@ -54,7 +54,7 @@ if(miktar > para) return message.channel.send(new Discord.MessageEmbed()
             setTimeout(() => {
               msg.edit(`**
     ___ROBER___  
-|${slots[result1]}${slots[result2]}${slots[result3]}${message.author.username} 💵 __ ${kazandin}+ __
+|${slots[result1]}${slots[result2]}${slots[result3]}${message.author.username} 💵 __50000+__
 |                  |
 |                  |**`,true);
             }, 4500);
@@ -72,7 +72,7 @@ if(miktar > para) return message.channel.send(new Discord.MessageEmbed()
             setTimeout(() => {
               msg.edit(`**
     ___ROBER___  
-|${slots[result1]}${slots[result2]}${slots[result3]}|${message.author.username} 💵 __ ${miktar}- __
+|${slots[result1]}${slots[result2]}${slots[result3]}|${message.author.username} 💵 __50000-__
 |                  |
 |                  |**`, true);
             }, 4500);
