@@ -16,6 +16,7 @@ exports.run = (client, message, args, dev) => {
 🎮 - __Game__
 🎮┇coinflip (cf) - slots (s)
 🎮┇rober (rr) - fish (f)
+🎮┇zebo (zo) - zenoy (zy)
 
 ⚙️ - __Moderation Commands__
 ⚙️┇lock - unlock - bot 
