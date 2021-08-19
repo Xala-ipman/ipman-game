@@ -56,6 +56,7 @@ module.exports = {
                 db.add(`money_${user.id}`, amount)
                 return message.channel.send(`**You Hit Blackjack Right Away!\nNew Balance -**\`${bal + amount}\``);
             }
+
             let playerTurn = true;
             let win = false;
             let reason;
@@ -163,4 +164,4 @@ module.exports = {
             }, 0);
         }
     }
-};     
+};
