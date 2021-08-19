@@ -60,7 +60,7 @@ The coin spins...  tail and you lost it all... 🔴 `);
           message.channel.send(text2).then(msg => {
             setTimeout(() => {
               msg.edit(`<@${message.author.id}> spent cowoncy __ ${50000+} __ 💵 and chose** heads**
-The coin spins... 🟢 coinflip 50000+`);
+The coin spins... 🟢 coinflip `);
             }, 50000);
           });
     await db.set(`bahisoynama_${message.author.id}`, Date.now());   
