@@ -8,7 +8,7 @@ exports.run = async (client, message, args) => {
   var banka = db.fetch(`bankapara_${user.id}`)   
 //== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==\\
   var toplam= cüzdan+banka
-message.channel.send(new Discord.MessageEmbed((`cash __${cüzdan ? cüzdan +'':`0`}__\nBank __${banka ? banka +'':`0`}__\nTotal __${toplam ? toplam +'':`0`}__`)})
+message.channel.send(new Discord.MessageEmbed((`cash __${cüzdan ? cüzdan +'':`0`}__\nBank __${banka ? banka +'':`0`}__\nTotal __${toplam ? toplam +'':`0`}__`)
                   .setColor("YELLOW")
                   .setFooter('Zenoy Balance Info!')
                   .setThumbnail('https://media.discordapp.net/attachments/852987040659931248/871313810441510922/image0.gif')
