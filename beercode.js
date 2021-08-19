@@ -30,7 +30,7 @@ require("./util/eventLoader.js")(client);
 //===============================================================================\\
 client.on("ready", async () => {
   client.user.setActivity(`Zhelp | Zinvite |Server,${client.guilds.cache.size}`, {
-    type: "Games"
+    type: "PLAYING"
   });
 });
 //===============================================================================\\
