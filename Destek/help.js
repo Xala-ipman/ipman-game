@@ -5,7 +5,7 @@ const Discord = require("discord.js");
 exports.run = (client, message, args, dev) => {
     if (!args[1]) {
    const embed = new Discord.MessageEmbed()
-      .setColor("")
+      .setColor("6a0d40")
       .setDescription(`
 💰 - __Economy__
 💰┇daily (d) -  cash (c)
@@ -29,7 +29,7 @@ exports.run = (client, message, args, dev) => {
 /////
 exports.conf = {
   enabled: true,
-  aliases: [],
+  aliases: ['h'],
 };
 
 exports.help = {
