@@ -16,7 +16,7 @@ message.channel.send(`cash __${cüzdan ? cüzdan +'':`0`}__\nBank __${banka ? ba
 //== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==\\
 exports.conf = {
   enabled: true,
-    aliases: ['c','C'],
+    aliases: ['c'],
 };
 //== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==\\
 exports.help = {
