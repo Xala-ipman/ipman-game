@@ -10,7 +10,7 @@ exports.run = async(client, message) => {
 } 
 //== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==\\
 let times = await db.fetch(`worktime_${message.author.id}`)
-  let day = 7000
+  let day = 864000
 //== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==\\
   if (times !== null && day - (Date.now() - times) > 0) {
         let time = ms(day - (Date.now() - times));
