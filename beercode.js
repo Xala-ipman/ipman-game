@@ -29,7 +29,7 @@ require("./util/eventLoader.js")(client);
 
 //===============================================================================\\
 client.on("ready", async () => {
-  client.user.setActivity(`Zhelp | Zinvite` | ${client.guilds.cache.size} Server,Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)},`, { type: "LISTENING"});,
+  client.user.setActivity(`Zhelp | Zinvite` }
     type: "PLAYING"
   });
 });
