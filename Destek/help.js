@@ -15,13 +15,13 @@ exports.run = (client, message, args, dev) => {
 
 🎮 - __Game__
 🎮┇coinflip (cf) - slots (s)
-🎮┇rober (rr) - 
+🎮┇rober (rr) - fish (f)
 
 ⚙️ - __Moderation Commands__
 ⚙️┇lock - unlock - bot 
 ⚙️┇server - kick - avatar
 ⚙️┇clear - role - invite
-⚙️┇support - server
+⚙️┇support - server - vote
 `)
     
        message.channel.send(embed);
