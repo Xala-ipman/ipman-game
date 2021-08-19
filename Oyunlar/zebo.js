@@ -64,7 +64,7 @@ if(miktar > para) return message.channel.send(new Discord.MessageEmbed()
 //== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==\\
   } else {
     var text3 = `**
-    ___SLOTS___  
+    ___ZEBO___  
 |<a:emoji_55:878045689114927144><a:emoji_54:878045674418110585><a:emoji_53:878045661751279618>|${message.author.username}
 |                  |
 |                  |**`;
