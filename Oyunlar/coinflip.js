@@ -48,7 +48,7 @@ if(miktar > para) return message.channel.send(new Discord.MessageEmbed()
           message.channel.send(text2).then(msg => {
             setTimeout(() => {
               msg.edit(`<@${message.author.id}>spent cowoncy __${-kaybettin}__ 💵 and chose **heads**
-The coin spins...  tail and you lost it all... 🔴`);
+The coin spins...  tail and you lost it all... 🔴 50000-`);
             }, 4000);
           });
       await db.set(`bahisoynama_${message.author.id}`, Date.now());   
@@ -60,7 +60,7 @@ The coin spins...  tail and you lost it all... 🔴`);
           message.channel.send(text2).then(msg => {
             setTimeout(() => {
               msg.edit(`<@${message.author.id}> spent cowoncy __ ${kazandın} __ 💵 and chose** heads**
-The coin spins... 🟢 coinflip`);
+The coin spins... 🟢 coinflip 50000+`);
             }, 50000);
           });
     await db.set(`bahisoynama_${message.author.id}`, Date.now());   
