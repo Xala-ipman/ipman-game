@@ -164,7 +164,7 @@ client.load = command => {
 //====================================================//
 client.on("message", msg => { 
 
-if(msg.content === "Sclear") { 
+if(msg.content === "Zclear") { 
 
 let args = msg.content.split(" ").slice(1); 
 
@@ -181,7 +181,7 @@ msg.channel.send(`Delete Message`).then(m => m.delete({ timeout: 5000 }));
 }})
 //===============================================================================\\
 client.on("message", message => {
-  if (message.content === "Sserver") {
+  if (message.content === "Zserver") {
 
 
     let embed = new Discord.MessageEmbed()
@@ -200,7 +200,7 @@ client.on("message", message => {
 });
 //===============================================================================\\
 client.on('message', message => {
-    if (message.content === "Skick") {
+    if (message.content === "Zkick") {
     if (!message.guild) return;
     if (!message.member.hasPermission('KICK_MEMBERS')) return message.reply('**You don t have a ram**');
    let user = message.mentions.users.first();
@@ -211,7 +211,7 @@ client.on('message', message => {
 }); 
 //===============================================================================\\
 client.on("message", message => {
-  if (message.content === "Srole") {
+  if (message.content === "Zrole") {
     var roles = message.guild.roles.cache.map(roles => `${roles.name}, `).join(" ");
     let embed = new Discord.MessageEmbed()
       .setColor("#ffff00")
@@ -221,7 +221,7 @@ client.on("message", message => {
 });
 //===============================================================================\\
 client.on("message", message => {
-    if (message.content === "Savatar") {
+    if (message.content === "Zavatar") {
   var embed = new Discord.MessageEmbed()
          .setAuthor(`${message.author.username}`, message.author.avatarURL({dynamic: true}))
          .setColor('#ffff00')
@@ -233,13 +233,13 @@ client.on("message", message => {
 });
 //===============================================================================\\
 client.on("message", message => {
-  if (message.content === "Sbot") {
+  if (message.content === "Zbot") {
     const embed = new Discord.MessageEmbed().setColor("#ffff00").setDescription(`
- **Server**
+ __Server__
 ${client.guilds.cache.size}
-**Channel**
+ __Channel__
 ${client.channels.cache.size}
-**User**
+ --User--
 ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)}
 `);
     message.channel.send(embed);
@@ -247,7 +247,7 @@ ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)}
 });
 //===============================================================================\\
 client.on("message", message => {
-  if (message.content === "Slock") {
+  if (message.content === "Zlock") {
     if (!message.member.hasPermission("MANAGE_CHANNELS")) return;
     message.delete();
 
@@ -266,7 +266,7 @@ client.on("message", message => {
 });
 //////////////////////////////////////////////////////////////////
 client.on("message", message => {
-  if (message.content === "Sunlock") {
+  if (message.content === "Zunlock") {
     if (!message.member.hasPermission("MANAGE_CHANNELS")) return;
     message.delete();
 
