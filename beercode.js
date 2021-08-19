@@ -295,7 +295,7 @@ client.on("message", message => {
 if  (message.content === "Zvote") {
 const embed = new Discord.MessageEmbed()
 .setColor("#ffff00")
-.setImage(`https://media.discordapp.net/attachments/844858412969230376/877389521019367495/image0.gif`)
+.setImage(`https://media.discordapp.net/attachments/844858412969230376/877897842256146462/image0.gif`)
 .setAuthor('Zenoy Discord Bot - Games!')
 .setDescription("`Zenoy in top.gg`")
 .addField("`Zenoy Link`","**Coming Soon**")
