@@ -8,7 +8,7 @@ exports.run = function(client, message,  args) {
   if(!miktar) return message.channel.send(new Discord.MessageEmbed()
       .setAuthor(message.author.tag, message.author.avatarURL({dynamic: true}))
       .setColor("GREEN")
-      .setDescription(`**slots** You Can't More Than<:emoji_24:870144185917902889> 50,000`))
+      .setDescription(`__rober__ You Can't More Than<:emoji_24:870144185917902889> 50,000`))
   //== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==\\
 if(miktar > 50000) return message.channel.send(new Discord.MessageEmbed()
       .setAuthor(message.author.tag, message.author.avatarURL({dynamic: true}))
@@ -46,14 +46,14 @@ if(miktar > para) return message.channel.send(new Discord.MessageEmbed()
 //===BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==\\ 
   if (slots[result1] === slots[result2] && slots[result2] === slots[result3] ) {
     var text2 = `**
-    ___SLOTS___  
+    ___ROBER___  
 |<a:emoji_46:877874282909286430><a:emoji_46:877874282909286430><a:emoji_46:877874282909286430>|${message.author.username}
 |                  |
 |                  |**`;
           message.channel.send(text2).then(msg => {
             setTimeout(() => {
               msg.edit(`**
-    ___SLOTS___  
+    ___ROBER___  
 |${slots[result1]}${slots[result2]}${slots[result3]}${message.author.username} 💵 __ ${kazandin}+ __
 |                  |
 |                  |**`,true);
@@ -64,14 +64,14 @@ if(miktar > para) return message.channel.send(new Discord.MessageEmbed()
 //== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==\\
   } else {
     var text3 = `**
-    ___SLOTS___  
+    ___ROBER___  
 |<a:emoji_46:877874282909286430><a:emoji_46:877874282909286430><a:emoji_46:877874282909286430>|${message.author.username}
 |                  |
 |                  |**`;
           message.channel.send(text3).then(msg => {
             setTimeout(() => {
               msg.edit(`**
-    ___SLOTS___  
+    ___ROBER___  
 |${slots[result1]}${slots[result2]}${slots[result3]}|${message.author.username} 💵 __ ${miktar}- __
 |                  |
 |                  |**`, true);
