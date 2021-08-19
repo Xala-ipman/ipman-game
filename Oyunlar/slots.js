@@ -47,7 +47,7 @@ if(miktar > para) return message.channel.send(new Discord.MessageEmbed()
   if (slots[result1] === slots[result2] && slots[result2] === slots[result3] ) {
     var text2 = `**
     ___SLOTS___  
-|<a:Skull5:872516098241736714><a:Skull5:872516098241736714><a:Skull5:872516098241736714>|${message.author.username}
+| <a:emoji_2:870056896747438121> <a:emoji_2:870056896747438121> <a:emoji_2:870056896747438121>|${message.author.username}
 |                  |
 |                  |**`;
           message.channel.send(text2).then(msg => {
@@ -65,7 +65,7 @@ if(miktar > para) return message.channel.send(new Discord.MessageEmbed()
   } else {
     var text3 = `**
     ___SLOTS___  
-|<a:Skull5:872516098241736714><a:Skull5:872516098241736714><a:Skull5:872516098241736714>|${message.author.username}
+|<a:emoji_2:870056896747438121> <a:emoji_2:870056896747438121> <a:emoji_2:870056896747438121>|${message.author.username}
 |                  |
 |                  |**`;
           message.channel.send(text3).then(msg => {
