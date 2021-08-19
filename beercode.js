@@ -38,7 +38,7 @@ client.on("ready", async () => {
 if  (message.content === "Zinvite") {
 const embed = new Discord.MessageEmbed()
 .setColor("#ffff00")
-.setImage(`https://media.discordapp.net/attachments/869689813996023899/874614716419424336/maxresdefault_2.jpg`)
+.setImage(`https://media.discordapp.net/attachments/844858412969230376/877901924152786984/image0.jpg`)
 .setAuthor('Zenoy Discord Bot - Games!')
 .setDescription("`Zenoy in invite`")
 .addField("`Zenoy Link`","(https://discord.com/api/oauth2/authorize?client_id=800433278674927686&permissions=8&scope=bot)")
