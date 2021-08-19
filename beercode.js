@@ -34,15 +34,18 @@ client.on("ready", async () => {
   });
 });
 //===============================================================================\\
-client.on("message", message => {
-  if (message.content === ";invite") {
-    let embed = new Discord.MessageEmbed()
-    .setColor("")
-    .setTitle("Invite the bot!")
-    .setDescription(`[invite]()`)
-    message.channel.send(embed);
-  }
-});
+ client.on("message", message => {
+if  (message.content === "Zinvite") {
+const embed = new Discord.MessageEmbed()
+.setColor("#ffff00")
+.setImage(`https://media.discordapp.net/attachments/869689813996023899/874614716419424336/maxresdefault_2.jpg`)
+.setAuthor('Zenoy Discord Bot - Games!')
+.setDescription("`Zenoy in invite`")
+.addField("`Zenoy Link`","(https://discord.com/api/oauth2/authorize?client_id=800433278674927686&permissions=8&scope=bot)")
+       message.channel.send(embed)
+
+       } 
+      });
 //===============================================================================\\
 client.on("message", message => {
   if (message.content === ";support") {
