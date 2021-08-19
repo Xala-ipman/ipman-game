@@ -61,7 +61,7 @@ The coin spins...  tail and you lost it all... 🔴`);
             setTimeout(() => {
               msg.edit(`<@${message.author.id}> spent cowoncy __ ${kazandın} __ 💵 and chose** heads**
 The coin spins... 🟢 coinflip`);
-            }, 4000);
+            }, 50000);
           });
     await db.set(`bahisoynama_${message.author.id}`, Date.now());   
     await db.add(`para_${message.author.id}`, kazandın);    
