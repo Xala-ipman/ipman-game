@@ -38,7 +38,8 @@ if(miktar > para) return message.channel.send(new Discord.MessageEmbed()
         const result = [
             "LOOSELOOSE",
           "WINWIN"
-        ] 
+          "WINWIN"
+         ] 
 //== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==\\
         let awnser = result[Math.floor(Math.random() * result.length)]
      if (awnser === "LOOSELOOSE") {
@@ -49,7 +50,7 @@ if(miktar > para) return message.channel.send(new Discord.MessageEmbed()
             setTimeout(() => {
               msg.edit(`<@${message.author.id}>spent cowoncy 💵 and chose __loose__
 The coin spins...  tail and you lost it all... __🔴__ `);
-            }, 350);
+            }, 450);
           });
       await db.set(`bahisoynama_${message.author.id}`, Date.now());   
       await db.add(`para_${message.author.id}`, -kaybettin);   
@@ -61,7 +62,7 @@ The coin spins...  tail and you lost it all... __🔴__ `);
             setTimeout(() => {
               msg.edit(`<@${message.author.id}> spent cowoncy 💵 and chose __win__
 The coin spins... __🟢__ coinflip`);
-            }, 350);
+            }, 450);
           });
     await db.set(`bahisoynama_${message.author.id}`, Date.now());   
     await db.add(`para_${message.author.id}`, kazandın);    
