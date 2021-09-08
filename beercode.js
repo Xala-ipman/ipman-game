@@ -17,7 +17,7 @@ app.listen(3000, () => {
   console.log('Server Started.');
 });
 const client = new Discord.Client();
-client.login("ODAwNDMzMjc4Njc0OTI3Njg2.YASDlA.IIcBBXISqf_19dX-Y6DjpSQTabw");
+client.login("ODQwMDIwNzE5NTk3MjU2NzE1.YJSIQg.1V7-g0osmEJPTvo0sXb1y5AzmYE");
 //== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==\\
 
 //=== BEERCODE (https://discord.gg/ew3dpTu4Z5) BEERCODE ==\\
